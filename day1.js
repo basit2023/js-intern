@@ -20,7 +20,7 @@ if(true){
     console.log("the let_b is:",let_b)//will give us result
 }
 console.log("the result of let_b:",let_b)
-/* let varible is block scop and we can update but can't redecler  
+/* let varible is block/functional scop and we can update but can't redecler  
 let varible can't access out side of the block scope
 it means let is local/functional scope */
 const c=3;
