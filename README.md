@@ -56,7 +56,7 @@ Comparison operators compare two values and return a boolean (`true` or `false`)
   - **`>=`**: Greater than or equal to
   - **`<=`**: Less than or equal to
 
-### 3. **Logical Operators**
+<!-- ### 3. **Logical Operators**
 Logical operators combine multiple conditions.
 
 - **`&&` (AND)**: True if both conditions are true.
@@ -72,7 +72,7 @@ Logical operators combine multiple conditions.
 - **`!` (NOT)**: Inverts the condition.
   ```js
   !(x > 0);  // true if x is not greater than 0
-  ```
+  ``` -->
 
 ## More Information
 
@@ -80,4 +80,3 @@ For more details about JavaScript operators, check out this [link](https://www.p
 ```
 
 
-The link in the "More Information" section directs to the page you specified for further learning on JavaScript operators.
