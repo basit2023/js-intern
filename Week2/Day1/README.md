@@ -1,6 +1,5 @@
 
 
-```md
 # JavaScript String Methods - Day 1, Week 2
 
 ## Table of Contents
