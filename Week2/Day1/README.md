@@ -1,4 +1,4 @@
-`README.md` file for Day 1 of Week 2, covering JavaScript string methods such as `length`, `charAt()`, `toUpperCase()`, `indexOf()`, and more...
+
 
 ```md
 # JavaScript String Methods - Day 1, Week 2
