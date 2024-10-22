@@ -21,10 +21,25 @@ function add(c,d){ //paramaters, when we assigned the variable in the function d
 
 // Function Expression
 // A Function Expression is when a function is assigned to a variable
-console.log("The expression function before definition",functionexpression(10,15)) // this line will give is error becuse its not hoist function as above
+// console.log("The expression function before definition",functionexpression(10,15)) // this line will give is error becuse its not hoist function as above
 const   functionexpression =function(a,b){
     return a+b
 }
+
+// const add1 = (a, b) => {
+//     const c= a + b
+// return c};
+
+// console.log(add1(3, 4));
+
+//Arrow function It uses the => (arrow) syntax and omits the function keyword. 
+const isEven = (a) => { 
+    if(a%2===0){
+        return "Even"
+    }
+    return "Odd"
+}
+console.log(isEven(3))
 
 
 // console.log("the function expression result is:",functionexpression(10,15))
