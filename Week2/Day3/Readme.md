@@ -1,10 +1,10 @@
 
 
-# Day3, Week2  Array Basics and Operations
+#  Array Basics and Operations, Day3, Week 2
 
 This guide covers basic array operations in JavaScript, including creation, modification, and various ways to loop through arrays.
 
-### Table of Contents
+## Table of Contents
 
 1. [Creating an Array](#creating-an-array)
 2. [Accessing Array Elements](#accessing-array-elements)
@@ -194,4 +194,5 @@ for (let index in fruits) {
 ### Conclusion
 
 This guide provides a basic understanding of how arrays work in JavaScript, from creation and modification to looping through their elements. Arrays are an essential data structure, and mastering these operations is crucial for efficient programming.
+For more information, check out the [JavaScript Array](https://www.javascripttutorial.net/javascript-array)
 
