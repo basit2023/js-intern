@@ -196,3 +196,40 @@ for (let index in fruits) {
 This guide provides a basic understanding of how arrays work in JavaScript, from creation and modification to looping through their elements. Arrays are an essential data structure, and mastering these operations is crucial for efficient programming.
 For more information, check out the [JavaScript Array](https://www.javascripttutorial.net/javascript-array)
 
+
+## Practictice Questions
+```
+Question: Create an array called fruits that contains the strings "apple", "banana", and "cherry".
+Expected Output: ["apple", "banana", "cherry"]
+Question: Given the array const colors = ["red", "green", "blue"], write code to access the second element in the array.
+Expected Output: "green"
+Question: Update the last element of the array const numbers = [10, 20, 30] to 40.
+Expected Output: [10, 20, 40]
+Question: Use a method to add the string "grape" to the end of the array const fruits = ["apple", "banana", "cherry"].
+Expected Output: ["apple", "banana", "cherry", "grape"]
+Question: Use a method to remove the last element from the array const cities = ["New York", "London", "Paris"].
+Expected Output: ["New York", "London"]
+Question: Use a method to add the string "mango" to the beginning of the array const fruits = ["banana", "cherry"].
+Expected Output: ["mango", "banana", "cherry"]
+Question: Use a method to remove the first element from the array const numbers = [100, 200, 300].
+Expected Output: [200, 300]
+Question: Write code to find the length of the array const fruits = ["apple", "banana", "cherry", "grape"].
+Expected Output: 4
+Question: Write a for loop to print each element in the array const animals = ["dog", "cat", "elephant"]
+Question: Write code to check if the array const colors = ["red", "green", "blue"] contains the element "yellow".
+Expected Output: false
+Question: Use a method to reverse the order of the array const letters = ["a", "b", "c", "d"].
+Expected Output: ["d", "c", "b", "a"]
+Question: Use a method to sort the array const numbers = [30, 10, 50, 20, 40] in ascending order.
+Expected Output: [10, 20, 30, 40, 50]
+Question: Write code to find the index of the element "Paris" in the array const cities = ["New York", "London", "Paris", "Tokyo"].
+Expected Output: 2
+Question: Remove the element "banana" from the array const fruits = ["apple", "banana", "cherry"].
+Expected Output: ["apple", "cherry"]
+Question: Use the slice() method to create a new array containing the last two elements of the array const numbers = [10, 20, 30, 40, 50].
+Expected Output: [40, 50]
+Question: Write code to merge the two arrays const array1 = ["a", "b"] and const array2 = ["c", "d"] into one array.
+Expected Output: ["a", "b", "c", "d"]
+Question: Write a function to remove duplicate elements from the array const numbers = [1, 2, 2, 3, 4, 4, 5].
+Expected Output: [1, 2, 3, 4, 5]
+```
