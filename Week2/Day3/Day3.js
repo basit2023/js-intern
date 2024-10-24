@@ -85,16 +85,67 @@ const sort1=[9,8,5,6,7,4,2,3,1]
 
 //practice question
 
-function totaladdition(x){
-    console.log("the x is:",x)
-    let y=0;
-    for(let i = 0; i <x.length; i++){
-        y=y+x[i];
-        console.log(`The y is: ${y}`)
-    }
-    return y;
+// function totaladdition(x){
+//     console.log("the x is:",x)
+//     let y=0;
+//     for(let i = 0; i <x.length; i++){
+//         y=y+x[i];
+//         console.log(`The y is: ${y}`)
+//     }
+//     return y;
 
+// }
+// const array1 = [1,2,3,4,5,6,7,8,9,10,11,12]
+// const result = totaladdition(array1)
+// console.log("the total result is:",result)
+
+
+// Question: Write a function to remove duplicate elements from the array const numbers = [1, 2, 2, 3, 4, 4, 5].
+// Expected Output: [1, 2, 3, 4, 5]
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+function remove_duplicates(array1) {
+    const arr=[]
+    for(let i=0; i<array1.length; i++) {
+       let isDuble=false;
+        for(let j=0; j<array1.length; j++) {
+        //   console.log(`the i is:${i} and the j is:${j}`)
+
+            if(array1[i]===arr[j]){
+                console.log("skip the douple:",array1[i],i)
+             isDuble=true
+            }
+        }
+
+        if(!isDuble){
+            arr.push(array1[i])
+        }
+        console.log(arr)
+
+    }
+        return arr
 }
-const array1 = [1,2,3,4,5,6,7,8,9,10,11,12]
-const result = totaladdition(array1)
-console.log("the total result is:",result)
+console.log("the result array:",remove_duplicates(numbers))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
