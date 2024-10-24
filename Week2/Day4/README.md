@@ -1,8 +1,6 @@
-Here's a sample `README.md` file that covers **array methods** in JavaScript, including `map()`, `filter()`, `forEach()`, `slice()`, and others:
 
----
 
-# JavaScript Array Methods
+# JavaScript Array Methods, Day4 Week 2;
 
 This document covers some of the most commonly used array methods in JavaScript. Arrays are powerful data structures, and JavaScript provides several built-in methods to manipulate, transform, and iterate through them.
 
