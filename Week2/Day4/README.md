@@ -136,5 +136,62 @@ console.log(hasApple); // Output: true
 ```
 
 
+## practive questions
+
+### 1. `map()`
+- **Question 1:** Given an array of numbers, return a new array where each number is doubled.  
+   Input: `[1, 2, 3, 4]`  
+   Output: `[2, 4, 6, 8]`
+
+- **Question 2:** Given an array of objects representing products with `name` and `price`, return an array containing only the names of the products.
+   Input: `[{name: 'Apple', price: 100}, {name: 'Banana', price: 50}, {name: 'Cherry', price: 75}]`  
+   Output: `['Apple', 'Banana', 'Cherry']`
+
+### 2. `filter()`
+- **Question 1:** Given an array of numbers, return a new array containing only the even numbers.  
+   Input: `[1, 2, 3, 4, 5, 6]`  
+   Output: `[2, 4, 6]`
+
+- **Question 2:** Given an array of objects representing people with `name` and `age`, return an array of people who are above 18 years old.  
+   Input: `[{name: 'John', age: 16}, {name: 'Jane', age: 22}, {name: 'Tom', age: 18}]`  
+   Output: `[{name: 'Jane', age: 22}]`
+
+### 3. `forEach()`
+- **Question 1:** Given an array of numbers, print each number to the console.  
+   Input: `[1, 2, 3, 4]`  
+   Output: (Printed in console)  
+   ```
+   1  
+   2  
+   3  
+   4  
+   ```
+
+- **Question 2:** Given an array of strings, append the string `'!'` to each element and log the result.  
+   Input: `['Hello', 'World']`  
+   Output: (Printed in console)  
+   ```
+   Hello!  
+   World!  
+   ```
+
+### 4. `slice()`
+- **Question 1:** Given an array of numbers, return a new array with the first 3 elements.  
+   Input: `[1, 2, 3, 4, 5]`  
+   Output: `[1, 2, 3]`
+
+- **Question 2:** Given an array of strings, return a new array with elements from index 2 to 4 (inclusive of index 2, exclusive of index 4).  
+   Input: `['a', 'b', 'c', 'd', 'e']`  
+   Output: `['c', 'd']`
+
+### 5. `splice()`
+- **Question 1:** Given an array of numbers, remove the second and third elements from the array and return the modified array.  
+   Input: `[1, 2, 3, 4, 5]`  
+   Output: `[1, 4, 5]`
+
+- **Question 2:** Given an array of strings, replace the first two elements with new strings `'x'` and `'y'` and return the modified array.  
+   Input: `['a', 'b', 'c', 'd']`  
+   Output: `['x', 'y', 'c', 'd']`
+
 
 
