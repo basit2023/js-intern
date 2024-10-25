@@ -143,18 +143,16 @@ console.log(hasApple); // Output: true
    Input: `[1, 2, 3, 4]`  
    Output: `[2, 4, 6, 8]`
 
-- **Question 2:** Given an array of objects representing products with `name` and `price`, return an array containing only the names of the products.
-   Input: `[{name: 'Apple', price: 100}, {name: 'Banana', price: 50}, {name: 'Cherry', price: 75}]`  
-   Output: `['Apple', 'Banana', 'Cherry']`
+- **Question 2:** Write a function that takes an array of names and returns an array where each name is converted to uppercase.
+   
 
 ### 2. `filter()`
 - **Question 1:** Given an array of numbers, return a new array containing only the even numbers.  
    Input: `[1, 2, 3, 4, 5, 6]`  
    Output: `[2, 4, 6]`
 
-- **Question 2:** Given an array of objects representing people with `name` and `age`, return an array of people who are above 18 years old.  
-   Input: `[{name: 'John', age: 16}, {name: 'Jane', age: 22}, {name: 'Tom', age: 18}]`  
-   Output: `[{name: 'Jane', age: 22}]`
+- **Question 2:** Write a function that takes an array of numbers and returns an array of numbers greater than 10..  
+ 
 
 ### 3. `forEach()`
 - **Question 1:** Given an array of numbers, print each number to the console.  
@@ -192,6 +190,12 @@ console.log(hasApple); // Output: true
 - **Question 2:** Given an array of strings, replace the first two elements with new strings `'x'` and `'y'` and return the modified array.  
    Input: `['a', 'b', 'c', 'd']`  
    Output: `['x', 'y', 'c', 'd']`
+
+
+
+
+
+
 
 
 
