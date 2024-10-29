@@ -124,3 +124,45 @@ students.forEach(student => console.log(student.name));
 
 ## Conclusion
 Arrays of objects are a powerful way to organize and manipulate related data in JavaScript. Understanding how to perform various operations on arrays of objects is essential for effective programming and data management.
+
+
+## Practice Questions
+Kindly copy data from this link ```https://jsonplaceholder.typicode.com/users``` and solve the following examples. 
+```
+1. **Accessing Objects**
+   - What is the `username` of the first user in the array?
+   - What is the `zipcode` of the user whose `name` is "Patricia Lebsack"?
+
+2. **Adding Objects**
+   - How would you add a new user to the array with the name "John Doe" and email "john@example.com"?
+   - How would you add a new user at the end of the array with the company name "TechCorp" and a catchphrase "Innovating the future"?
+
+3. **Removing Objects**
+   - How would you remove the last user in the array?
+   - How would you remove the user with `id` 4 from the array?
+
+4. **Updating Properties**
+   - How would you update the `phone` number of the user with `id` 3 to "123-456-7890"?
+   - How would you change the `website` of the user with `username` "Bret" to "newwebsite.com"?
+
+5. **Iterating Over the Array**
+   - How would you iterate over the array to print each user's `name`?
+   - How would you loop through the array and print the `city` of each user's `address`?
+
+6. **Filtering**
+   - How would you filter the users to only include those who live in the city "South Elvis"?
+   - How would you filter the array to find all users whose company name includes "LLC"?
+
+7. **Mapping**
+   - How would you create an array of all `email` addresses from the users?
+   - How would you create an array containing only the `name` and `website` of each user?
+
+8. **Finding an Object**
+   - How would you find the user with `username` "Elwyn.Skiles"?
+   - How would you locate the user whose `email` is "Chaim_McDermott@dana.io"?
+
+9. **Sorting**
+   - How would you sort the users by their `id` in descending order?
+   - How would you sort the users by `name` in alphabetical order?
+   
+   ```
