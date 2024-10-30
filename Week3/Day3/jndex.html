@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Just select the id -->
+    <h1 id="id">Welcome to DOB</h1>    
+    <!-- Create a function with name of changetext -->
+    <button onclick="changetext()">Click Me</button>
+</body>
+<script>
+    // take the id from the documnet
+    const id=document.getElementById("id")
+   //change the color while targeting that specific id;
+    document.getElementById("id").style.color="red"
+    console.log("the id is:",id)
+    //function that will change the text and color of the id once the button clicked
+    function changetext(){
+        const id=document.getElementById("id")
+        id.textContent="Hello Welcome to the Dom First Function"
+        id.style.color="blue"
+    }
+</script>
+</html>
