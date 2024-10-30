@@ -3,8 +3,6 @@
 
 This project demonstrates basic DOM (Document Object Model) manipulation in JavaScript using the `id` selector. In this example, JavaScript is used to change the color and content of an HTML element based on user interaction.
 
-- **index.html**: The HTML file with a heading and button. JavaScript changes the heading text and color when the button is clicked.
-- **README.md**: Documentation for the project.
 
 ## Introduction to DOM and the `id` Selector
 
