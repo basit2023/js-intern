@@ -1,0 +1,81 @@
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div">this is div tag</div>
+    <p> this is p tag</p>
+    <div class="div1">this is div tag</div>
+    <script>
+        const box1=document.getElementsByTagName('div')
+        for(let i=0; i<box1.length;i++){
+            box1[i].style.color="red"
+            box1[i].textContent="theiis the for loop div"
+        }
+        // box1.textContent="the div1 text changed"
+        // box1.style.color = 'green'
+        // console.log("the box1 is:",box1)
+    </script>
+</body>
+</html>  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div">this is div tag</div>
+    <p> this is p tag</p>
+    <div class="div1">this is div tag</div>
+    <script>
+        const box1=document.getElementsByClassName('div1')
+        for(let i=0; i<box1.length;i++){
+            box1[i].style.color="yellow"
+            box1[i].textContent="the text change after maching the clas name"
+        }
+        // box1.textContent="the div1 text changed"
+        // box1.style.color = 'green'
+        // console.log("the box1 is:",box1)
+    </script>
+</body>
+</html>
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb toggle</title>
+    <style>
+        .bulb {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: black;
+        }
+        .on{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Press the button to on/Off the bulb</h1>
+    <div class="bulb"></div>
+    <button onclick="toggleBulb()"> press</button>
+    <script>
+        function toggleBulb() {
+            const bulb=document.getElementsByClassName('bulb')[0]
+            bulb.classList.toggle('on')
+        }
+    </script>
+</body>
+</html> -->
