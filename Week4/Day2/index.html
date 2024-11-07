@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events Example</title>
+</head>
+<body>
+    <button id="myButton">Click Me!</button>
+    <input type="text" id="myInput" placeholder="Type here..." />
+    <h1 id="message"></h1>
+
+    <script >
+
+    //   const Ev=document.getElementById('myButton')
+    //   console.log("the button is:",Ev)
+    //   Ev.addEventListener('click', ()=>{
+    //     const a=15;
+    //     const b=30;
+    //     alert(`You clicked me ${a+b}`)
+    //   });
+    //removing events
+//     function showAlert() {
+//     alert('Button was clicked!');
+// }
+
+// Ev.addEventListener('click', showAlert);
+// Ev.removeEventListener('click', showAlert);
+
+
+
+
+
+// const input = document.getElementById('myInput');
+
+// input.addEventListener('input', (event) => {
+//     console.log("the event is:",event)
+//     const value = event.target.value;
+//     console.log("the value is:",value)
+//     document.getElementById('message').textContent = `You typed: ${value}`;
+// });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('myButton');
+    const input = document.getElementById('myInput');
+    const message = document.getElementById('message');
+
+    // Click event
+    // button.addEventListener('click', () => {
+    //     message.textContent = 'Button was clicked!';
+    // });
+
+    // Input event
+    // input.addEventListener('input', (event) => {
+    //     message.textContent = `You typed: ${event.target.value}`;
+    // });
+
+    // Mouseover event
+    button.addEventListener('mouseover', () => {
+        button.style.backgroundColor = 'lightblue';
+    });
+
+    // Mouseout event
+    button.addEventListener('mouseout', () => {
+        button.style.backgroundColor = '';
+    });
+});
+     
+    </script>
+</body>
+</html>
+
