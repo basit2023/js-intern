@@ -1,4 +1,4 @@
-### README: Understanding `innerHTML`, `outerHTML`, and DOM Insertion Methods in JavaScript , Week 5 day1
+### Understanding `innerHTML`, `outerHTML`, and DOM Insertion Methods in JavaScript , Week 5 day1
 
 This Readme file provides a detailed overview of `innerHTML` and `outerHTML` properties for working with HTML content and the different insertion methods available in the DOM for manipulating web page elements.
 
