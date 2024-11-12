@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="example">
+        <p>Hello, World!</p>
+      </div>
+    
+      <script>
+        // let exampleDiv = document.getElementById('example');
+
+
+        // console.log(exampleDiv.innerHTML); // Output: <p>Hello, World!</p>
+
+        // // Set the innerHTML
+        // exampleDiv.innerHTML = '<h1>New Content!</h1>';
+        let exampleDiv = document.getElementById('example');
+
+            // Insert HTML before the element
+            exampleDiv.insertAdjacentHTML('beforebegin', '<p>Before Begin</p>');
+
+            // // Insert HTML at the start of the element
+            exampleDiv.insertAdjacentHTML('afterbegin', '<span>Start - </span>');
+
+            // // Insert HTML at the end of the element
+            exampleDiv.insertAdjacentHTML('beforeend', ' - End');
+
+            // // Insert HTML after the element
+            exampleDiv.insertAdjacentHTML('afterend', '<p>After End</p>');
+      </script>
+</body>
+</html>

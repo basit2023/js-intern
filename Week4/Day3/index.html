@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="parent">
+        <p id="p1">First paragraph</p>
+        <p>Second paragraph</p>
+        <p>Third paragraph</p>
+      </div>
+</body>
+<script>
+    let parent = document.getElementById("parent");
+    let child=document.getElementById("p1")
+    // console.log(child.parentElement)
+// Access all child elements
+console.log(parent.children); // Output: HTMLCollection [<p>, <p>, <p>]
+
+// Access the first child element
+console.log(parent.firstElementChild); // Output: <p>First paragraph</p>
+// console.log("the second element is:",parent.secondElementChild); // Output: HTMLCollection [<p>]
+// Access the last child element
+console.log(parent.lastElementChild); // Output: <p>Third paragraph</p>
+
+// // Loop through all children
+// for (let child of parent.children) {
+//   console.log(child.textContent);
+//   child.textContent="Modified"
+// }
+
+
+let newchiled=document.createElement("h1")
+newchiled.textContent="User New prag"
+parent.appendChild(newchiled);
+
+
+</script>
+</html>
