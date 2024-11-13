@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello welCome to js</h1>
+    <script>
+        async function weather(){
+    let islamabd= new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            resolve("20 Deg")
+        },1000)
+        
+    })
+    let Rawil= new Promise((resolve, reject)=>{
+        
+        setTimeout(()=>{
+            resolve("19 Deg")
+        },5000)
+    })
+    console.log("the before isb weather is:",islamabd)
+   console.log("the before Raq weather is:",Rawil)
+   let isb=await islamabd;
+   let raw= await Rawil;
+   console.log("the isb weather is:",isb)
+   console.log("the Raq weather is:",raw)
+   return [isb,raw]
+    // const a= await [islamabd, Rawil]
+}
+
+console.log("the data from the weather!")
+
+weather()
+.then((data)=>{
+    console.log("the data is:",data)
+})
+.catch((error)=>{
+    console.log("the error is:",error)
+})
+    </script>
+</body>
+</html>
