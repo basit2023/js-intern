@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Static Methods of JavaScript Promises, Try-Catch and finally block</h1>
+    <script>
+        // const promise1 = Promise.resolve(10);
+        // const promise2 = Promise.resolve(20);
+        // const promise3 = Promise.reject(30);
+
+        // Promise.all([promise1, promise2, promise3])
+        // .then(results => console.log(results)) // Output: [10, 20, 30]
+        // .catch(error => console.error('Error:', error));
+        //promise rare
+        // const fastPromise = new Promise((resolve) => setTimeout(() => resolve('Fast'), 100));
+        // const slowPromise = new Promise((resolve) => setTimeout(() => resolve('Slow'), 1000));
+
+        // Promise.race([fastPromise, slowPromise])
+        // .then(result => console.log(result)) // Output: 'Fast'
+        // .catch(error => console.error('Error:', error));
+        //promise allseteled
+//         const promiseA = Promise.resolve('A');
+// const promiseB = Promise.reject('B');
+// const promiseC = Promise.resolve('C');
+
+// Promise.allSettled([promiseA, promiseB, promiseC])
+//   .then(results => console.log(results))
+//   .catch(error=>console.log("the error is:"))
+
+//    function fetchData() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(()=>{
+//             reject("Your promise accepted")
+//         },2000
+//     )
+//     })
+//    }
+//    async function datafetch() {
+//     try {
+//         const data = await fetchData()
+//         console.log("the data is:",data)
+//     } catch (error) {
+//         console.log("the error is:",error)
+//         console.error("Error:",error)
+//     }
+//    }
+//    datafetch()
+
+
+        function fetchData(shouldFail) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+            if (shouldFail) {
+                reject(new Error('Data fetch failed!'));
+            } else {
+                resolve('Data fetched successfully');
+            }
+            }, 5000);
+        });
+        }
+
+        async function fetchDataWithHandling() {
+        try {
+            const result = await fetchData(true); // Change to true to trigger an error
+            console.log(result);
+        } catch (error) {
+            console.error('Custom Error Message:', error.message);
+            throw new Error('Custom Error Thrown After Catch');
+        } finally {
+            console.log('Execution complete, cleaning up...');
+        }
+        }
+
+        fetchDataWithHandling()
+            </script>
+</body>
+</html>
